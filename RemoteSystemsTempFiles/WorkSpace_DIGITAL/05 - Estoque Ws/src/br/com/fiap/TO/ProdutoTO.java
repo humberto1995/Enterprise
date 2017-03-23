@@ -1,0 +1,64 @@
+package br.com.fiap.TO;
+
+import java.io.Serializable;
+import java.text.DecimalFormat;
+
+public class ProdutoTO implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+
+	private int codigoProduto;
+	private String descricao;
+	private double precoUnitario;
+	private int quantidade;
+
+	public ProdutoTO() {
+		super();
+	}
+
+	public ProdutoTO(int codigoProduto, String descricao, double precoUnitario, int quantidade) {
+		super();
+		this.codigoProduto = codigoProduto;
+		this.descricao = descricao;
+		this.precoUnitario = precoUnitario;
+		this.quantidade = quantidade;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	public int getCodigoProduto() {
+		return codigoProduto;
+	}
+
+	public void setCodigoProduto(int codigoProduto) {
+		this.codigoProduto = codigoProduto;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+
+	public double getPrecoUnitario() {
+
+		return precoUnitario;
+	}
+
+	public void setPrecoUnitario(double precoUnitario) {
+		this.precoUnitario = precoUnitario;
+	}
+
+	public int getQuantidade() {
+		return quantidade;
+	}
+
+	public void setQuantidade(int quantidade) {
+		this.quantidade = quantidade;
+	}
+
+}

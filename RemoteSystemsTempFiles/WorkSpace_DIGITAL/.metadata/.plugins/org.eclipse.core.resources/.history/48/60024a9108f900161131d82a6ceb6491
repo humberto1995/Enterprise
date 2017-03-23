@@ -1,0 +1,16 @@
+package br.com.fiap.view;
+
+public class ConsoleViewCorreios {
+
+	public static void main(String[] args) {
+		// Calcular o prazo de entrega (WebService dos Correios)
+		// 40010 SEDEX / CalPrazo
+		try {
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package br.com.fiap.view;
+
+import java.util.Scanner;
+
+import br.com.fiap.bo.CursoBOStub;
+import br.com.fiap.bo.CursoBOStub.CalcularMedia;
+import br.com.fiap.bo.CursoBOStub.CalcularMediaResponse;
+
+public class ConsoleViewMedia {
+
+	public static void main(String[] args) {
+		try {
+			Scanner entrada = new Scanner(System.in);
+			CursoBOStub bo = new CursoBOStub();
+			CalcularMedia valores = new CalcularMedia();
+			System.out.print("Digite a nota do NAC:");
+			double nac = entrada.nextDouble();
+			valores.setNac(nac);
+			// valores.setNAC(5);
+			System.out.print("Digite a nota do AM:");
+			double am = entrada.nextDouble();
+			valores.setAm(am);
+			// valores.setAM(5);
+			System.out.print("Digite a nota do PS:");
+			double ps = entrada.nextDouble();
+			valores.setPs(ps);
+			// valores.setPS(5);
+
+			CalcularMediaResponse response = bo.calcularMedia(valores);
+			double media = response.get_return();
+			System.out.print("A sua Média é: " + media);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

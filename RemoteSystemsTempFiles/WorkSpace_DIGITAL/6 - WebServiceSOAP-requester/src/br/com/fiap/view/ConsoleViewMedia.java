@@ -1,0 +1,60 @@
+package br.com.fiap.view;
+
+import java.util.Scanner;
+
+import br.com.fiap.bo.CursoBOStub;
+import br.com.fiap.bo.CursoBOStub.CalcularMedia;
+import br.com.fiap.bo.CursoBOStub.CalcularMediaResponse;
+
+public class ConsoleViewMedia {
+
+	public static void main(String[] args) {
+		try {
+			Scanner entrada = new Scanner(System.in);
+
+			CursoBOStub bo = new CursoBOStub();
+			CalcularMedia valores = new CalcularMedia();
+
+			double nac1 = 0;
+			double nac2 = 0;
+			double nac3 = 0;
+
+			System.out.print("Digite a nota do NAC 1:");
+			nac1 = entrada.nextDouble();
+
+			System.out.print("Digite a nota do NAC 2:");
+			nac2 = entrada.nextDouble();
+
+			System.out.print("Digite a nota do NAC 3:");
+			nac3 = entrada.nextDouble();
+
+			if (nac1 != nac2 && nac1 != nac3) {
+				nac1 = 0;
+			} else if (nac2 != nac1 && nac2 != nac3) {
+				nac2 = 0;
+			} else {
+				nac3 = 0;
+			}
+
+			double nac = ((nac1 + nac2 + nac3) / 2);
+			valores.setNac(nac);
+			// System.out.print("Digite a nota do NAC:");
+			// valores.setNac(entrada.nextDouble());
+			// valores.setNAC(5);
+			System.out.print("Digite a nota do AM:");
+			valores.setAm(entrada.nextDouble());
+			// valores.setAM(5);
+			System.out.print("Digite a nota do PS:");
+			valores.setPs(entrada.nextDouble());
+			// valores.setPS(5);
+
+			CalcularMediaResponse response = bo.calcularMedia(valores);
+			double media = response.get_return();
+			System.out.print("A sua Média é: " + media);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

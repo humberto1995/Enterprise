@@ -1,0 +1,1072 @@
+!SESSION 2017-02-22 08:37:57.586 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-22 08:38:32.711
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\logonrm'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-02-22 08:38:36.992
+!MESSAGE Project facet com.ibm.etools.javaee.cdi has not been defined. It is used in plugin com.ibm.etools.javaee.core.
+
+!ENTRY org.eclipse.ui 4 4 2017-02-22 08:38:41.387
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@6fb07db6)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@732f7660)}
+
+!ENTRY org.jboss.tools.central 4 0 2017-02-22 08:38:43.204
+!MESSAGE Current Eclipse instance does not support software installation.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Current Eclipse instance does not support software installation.
+	at org.jboss.tools.central.installation.InstallationChecker.<init>(InstallationChecker.java:76)
+	at org.jboss.tools.central.installation.InstallationChecker.getInstance(InstallationChecker.java:84)
+	at org.jboss.tools.central.editors.GettingStartedHtmlPage$6.run(GettingStartedHtmlPage.java:327)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.core 4 0 2017-02-22 08:38:43.205
+!MESSAGE Current Eclipse instance does not support software installation.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-02-22 08:39:06.557
+!MESSAGE Project facet com.ibm.etools.javaee.cdi has not been defined. It is used in plugin com.ibm.cftools.branding.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-02-22 08:39:06.558
+!MESSAGE Project facet com.ibm.etools.javaee.cdi has not been defined. It is used in plugin com.ibm.ws.st.jee.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.ui 4 0 2017-02-22 08:39:07.193
+!MESSAGE Project facet com.ibm.etools.javaee.cdi has not been defined. It is used in plugin com.ibm.etools.javaee.cdi.ext.ui.
+
+!ENTRY org.eclipse.datatools.connectivity 4 10001 2017-02-22 08:39:23.658
+!MESSAGE D:\New folder\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+!STACK 1
+org.eclipse.core.runtime.CoreException: D:\New folder\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:104)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:251)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.initializeLocalDatabase(InternalProfileManager.java:1380)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadLocalRegisteredDatabases(InternalProfileManager.java:1360)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadProfiles(InternalProfileManager.java:1070)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfiles(InternalProfileManager.java:150)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfileByName(InternalProfileManager.java:239)
+	at org.eclipse.datatools.connectivity.ProfileManager.getProfileByName(ProfileManager.java:98)
+	at org.jboss.tools.as.runtimes.integration.internal.DriverUtility.createDriver2(DriverUtility.java:89)
+	at org.jboss.tools.as.runtimes.integration.internal.DriverUtility.createDriver(DriverUtility.java:83)
+	at org.jboss.tools.as.runtimes.integration.internal.DriverRuntimeLifecycleListener.runtimeAdded(DriverRuntimeLifecycleListener.java:29)
+	at org.eclipse.wst.server.core.internal.ResourceManager.fireRuntimeEvent(ResourceManager.java:523)
+	at org.eclipse.wst.server.core.internal.ResourceManager.registerRuntime(ResourceManager.java:1204)
+	at org.eclipse.wst.server.core.internal.ResourceManager.addRuntime(ResourceManager.java:684)
+	at org.eclipse.wst.server.core.internal.Runtime.saveToMetadata(Runtime.java:131)
+	at org.eclipse.wst.server.core.internal.RuntimeWorkingCopy.save(RuntimeWorkingCopy.java:181)
+	at org.eclipse.wst.server.ui.internal.wizard.WizardTaskUtil.saveRuntime(WizardTaskUtil.java:87)
+	at org.eclipse.wst.server.ui.internal.wizard.WizardTaskUtil$1.performFinish(WizardTaskUtil.java:45)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.executeTask(TaskWizard.java:268)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard$2.run(TaskWizard.java:215)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.wst.server.ui.internal.wizard.page.WorkspaceRunnableAdapter.run(WorkspaceRunnableAdapter.java:35)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: java.io.FileNotFoundException: D:\New folder\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.initSampleDb(SampleDbFactory.java:187)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:88)
+	... 24 more
+!SUBENTRY 1 org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb 4 0 2017-02-22 08:39:23.659
+!MESSAGE D:\New folder\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+!STACK 0
+java.io.FileNotFoundException: D:\New folder\.metadata\.plugins\org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb\db\META-INF\MANIFEST.MF (The system cannot find the path specified)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.initSampleDb(SampleDbFactory.java:187)
+	at org.eclipse.birt.report.data.oda.jdbc.dbprofile.sampledb.internal.impl.SampleDbFactory.setInitializationData(SampleDbFactory.java:88)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:251)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.initializeLocalDatabase(InternalProfileManager.java:1380)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadLocalRegisteredDatabases(InternalProfileManager.java:1360)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadProfiles(InternalProfileManager.java:1070)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfiles(InternalProfileManager.java:150)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfileByName(InternalProfileManager.java:239)
+	at org.eclipse.datatools.connectivity.ProfileManager.getProfileByName(ProfileManager.java:98)
+	at org.jboss.tools.as.runtimes.integration.internal.DriverUtility.createDriver2(DriverUtility.java:89)
+	at org.jboss.tools.as.runtimes.integration.internal.DriverUtility.createDriver(DriverUtility.java:83)
+	at org.jboss.tools.as.runtimes.integration.internal.DriverRuntimeLifecycleListener.runtimeAdded(DriverRuntimeLifecycleListener.java:29)
+	at org.eclipse.wst.server.core.internal.ResourceManager.fireRuntimeEvent(ResourceManager.java:523)
+	at org.eclipse.wst.server.core.internal.ResourceManager.registerRuntime(ResourceManager.java:1204)
+	at org.eclipse.wst.server.core.internal.ResourceManager.addRuntime(ResourceManager.java:684)
+	at org.eclipse.wst.server.core.internal.Runtime.saveToMetadata(Runtime.java:131)
+	at org.eclipse.wst.server.core.internal.RuntimeWorkingCopy.save(RuntimeWorkingCopy.java:181)
+	at org.eclipse.wst.server.ui.internal.wizard.WizardTaskUtil.saveRuntime(WizardTaskUtil.java:87)
+	at org.eclipse.wst.server.ui.internal.wizard.WizardTaskUtil$1.performFinish(WizardTaskUtil.java:45)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.executeTask(TaskWizard.java:268)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard$2.run(TaskWizard.java:215)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.wst.server.ui.internal.wizard.page.WorkspaceRunnableAdapter.run(WorkspaceRunnableAdapter.java:35)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY com.ibm.etools.javaee.core 4 0 2017-02-22 08:41:59.898
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.common.internal.emfworkbench.WorkbenchResourceHelper.getProject(WorkbenchResourceHelper.java:399)
+	at com.ibm.etools.javaee.model.internal.Web25ModelProvider.getModelObject(Web25ModelProvider.java:264)
+	at com.ibm.etools.javaee.model.internal.JEE5ModelProvider.getModelObject(JEE5ModelProvider.java:305)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider.getCachedContentProvider(JEE5ContentProvider.java:98)
+	at org.eclipse.jst.jee.ui.internal.navigator.Web25ContentProvider.getChildren(Web25ContentProvider.java:35)
+	at org.eclipse.ui.internal.navigator.extensions.SafeDelegateTreeContentProvider.getChildren(SafeDelegateTreeContentProvider.java:95)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$1.run(NavigatorContentServiceContentProvider.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.internalGetChildren(NavigatorContentServiceContentProvider.java:143)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getChildren(NavigatorContentServiceContentProvider.java:122)
+	at org.eclipse.jst.jee.ui.internal.navigator.JEE5ContentProvider$1.run(JEE5ContentProvider.java:142)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4203)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3819)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:165)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.run(RefactoringWizardDialog2.java:319)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.internalPerformFinish(RefactoringWizard.java:636)
+	at org.eclipse.ltk.ui.refactoring.UserInputWizardPage.performFinish(UserInputWizardPage.java:145)
+	at org.eclipse.ltk.ui.refactoring.resource.RenameResourceWizard$RenameResourceRefactoringConfigurationPage.performFinish(RenameResourceWizard.java:120)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizard.performFinish(RefactoringWizard.java:710)
+	at org.eclipse.ltk.internal.ui.refactoring.RefactoringWizardDialog2.okPressed(RefactoringWizardDialog2.java:445)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:466)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation$1.run(RefactoringWizardOpenOperation.java:188)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:203)
+	at org.eclipse.ltk.ui.refactoring.RefactoringWizardOpenOperation.run(RefactoringWizardOpenOperation.java:122)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RefactoringStarter.activate(RefactoringStarter.java:38)
+	at org.eclipse.jdt.internal.corext.refactoring.RefactoringExecutionStarter.startRenameResourceRefactoring(RefactoringExecutionStarter.java:443)
+	at org.eclipse.jdt.internal.ui.refactoring.actions.RenameResourceAction.run(RenameResourceAction.java:45)
+	at org.eclipse.jdt.ui.actions.RenameAction.run(RenameAction.java:112)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:271)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:249)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:118)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:286)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:507)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:558)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:378)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:324)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:86)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1270)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1078)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1130)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1126)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1849)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5164)
+	at org.eclipse.swt.widgets.Tree.WM_KEYDOWN(Tree.java:6211)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4823)
+	at org.eclipse.swt.widgets.Tree.windowProc(Tree.java:6074)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5102)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3814)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-02-22 08:42:03.192
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.192
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\activation-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.192
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\antlr-2.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.192
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axiom-api-1.2.13.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.192
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axiom-dom-1.2.13.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.192
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axiom-impl-1.2.13.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.192
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-adb-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.193
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-adb-codegen-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.193
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-ant-plugin-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.193
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-clustering-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.193
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-codegen-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.193
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-corba-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.193
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-fastinfoset-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.193
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-java2wsdl-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.193
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-jaxbri-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.193
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-jaxws-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.193
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-jibx-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.193
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-json-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-kernel-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-metadata-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-mtompolicy-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-saaj-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-soapmonitor-servlet-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-spring-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-transport-http-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-transport-local-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-xmlbeans-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\commons-cli-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\commons-codec-1.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\commons-fileupload-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\commons-httpclient-3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\commons-io-1.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.194
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\commons-logging-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.197
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\geronimo-stax-api_1.0_spec-1.0.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.199
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\httpcore-4.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.199
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\log4j-1.2.15.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.199
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\mail-1.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.199
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\neethi-3.0.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.199
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\woden-api-1.0M9.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.199
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\woden-impl-commons-1.0M9.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.199
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\woden-impl-dom-1.0M9.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.199
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\wsdl4j-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.199
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\wstx-asl-3.2.9.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.199
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\xmlbeans-2.3.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:03.199
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\XmlSchema-1.4.7.jar. May be locked by another process.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Publishing failed with multiple errors
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\activation-1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\antlr-2.7.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axiom-api-1.2.13.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axiom-dom-1.2.13.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axiom-impl-1.2.13.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-adb-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-adb-codegen-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-ant-plugin-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-clustering-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-codegen-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-corba-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-fastinfoset-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-java2wsdl-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-jaxbri-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-jaxws-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-jibx-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-json-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-kernel-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-metadata-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-mtompolicy-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-saaj-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-soapmonitor-servlet-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-spring-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-transport-http-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-transport-local-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\axis2-xmlbeans-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\commons-cli-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\commons-codec-1.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\commons-fileupload-1.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\commons-httpclient-3.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\commons-io-1.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\commons-logging-1.1.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\geronimo-stax-api_1.0_spec-1.0.1.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\httpcore-4.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\log4j-1.2.15.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\mail-1.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\neethi-3.0.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\woden-api-1.0M9.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\woden-impl-commons-1.0M9.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\woden-impl-dom-1.0M9.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\wsdl4j-1.6.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\wstx-asl-3.2.9.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\xmlbeans-2.3.0.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2017-02-22 08:42:08.375
+!MESSAGE Could not delete D:\New folder\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\teste\WEB-INF\lib\XmlSchema-1.4.7.jar. May be locked by another process.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-02-22 08:42:12.835
+!MESSAGE Port 8005 required by Tomcat v9.0 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-02-22 08:43:01.142
+!MESSAGE Several ports (8005, 8080, 8009) required by Tomcat v9.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-22 08:47:16.816
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-22 08:47:16.817
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jdt.ui 4 0 2017-02-22 08:47:34.513
+!MESSAGE Error retrieving proposal text.
+Display string:
+No Proposals
+Pattern:
+2 + am*0.3))*
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 13
+	at java.lang.String.substring(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:914)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getStyledDisplayString(AbstractJavaCompletionProposal.java:1251)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:868)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$24(CompletionProposalPopup.java:851)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$3.handleEvent(CompletionProposalPopup.java:601)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1183)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6904)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5817)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:2033)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5371)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2446)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:580)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:446)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:6037)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115)
+	at org.eclipse.swt.internal.win32.OS.SendMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(OS.java:3325)
+	at org.eclipse.swt.widgets.Table.select(Table.java:3493)
+	at org.eclipse.swt.widgets.Table.setSelection(Table.java:5171)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.selectProposal(CompletionProposalPopup.java:1439)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.setProposals(CompletionProposalPopup.java:1211)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$7(CompletionProposalPopup.java:1154)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$1.run(CompletionProposalPopup.java:371)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4203)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3819)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2017-02-22 08:47:34.926
+!MESSAGE Error retrieving proposal text.
+Display string:
+No Proposals
+Pattern:
+2 + am*0.3))*2
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 14
+	at java.lang.String.substring(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:914)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getStyledDisplayString(AbstractJavaCompletionProposal.java:1251)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:868)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$24(CompletionProposalPopup.java:851)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$3.handleEvent(CompletionProposalPopup.java:601)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1183)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6904)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5817)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:2033)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5371)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2446)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:580)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:446)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:6037)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115)
+	at org.eclipse.swt.internal.win32.OS.SendMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(OS.java:3325)
+	at org.eclipse.swt.widgets.Table.select(Table.java:3493)
+	at org.eclipse.swt.widgets.Table.setSelection(Table.java:5171)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.selectProposal(CompletionProposalPopup.java:1439)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.setProposals(CompletionProposalPopup.java:1211)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$7(CompletionProposalPopup.java:1154)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$1.run(CompletionProposalPopup.java:371)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4203)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3819)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2017-02-22 08:47:36.358
+!MESSAGE Error retrieving proposal text.
+Display string:
+No Proposals
+Pattern:
+2 + am*0.3))*2)
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 15
+	at java.lang.String.substring(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:914)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getStyledDisplayString(AbstractJavaCompletionProposal.java:1251)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:868)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$24(CompletionProposalPopup.java:851)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$3.handleEvent(CompletionProposalPopup.java:601)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1183)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6904)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5817)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:2033)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5371)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2446)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:580)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:446)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:6037)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115)
+	at org.eclipse.swt.internal.win32.OS.SendMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(OS.java:3325)
+	at org.eclipse.swt.widgets.Table.select(Table.java:3493)
+	at org.eclipse.swt.widgets.Table.setSelection(Table.java:5171)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.selectProposal(CompletionProposalPopup.java:1439)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.setProposals(CompletionProposalPopup.java:1211)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$7(CompletionProposalPopup.java:1154)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$1.run(CompletionProposalPopup.java:371)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4203)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3819)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2017-02-22 08:47:36.795
+!MESSAGE Error retrieving proposal text.
+Display string:
+No Proposals
+Pattern:
+2 + am*0.3))*2
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 14
+	at java.lang.String.substring(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:914)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getStyledDisplayString(AbstractJavaCompletionProposal.java:1251)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:868)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$24(CompletionProposalPopup.java:851)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$3.handleEvent(CompletionProposalPopup.java:601)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1183)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6904)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5817)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:2033)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5371)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2446)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:580)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:446)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:6037)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115)
+	at org.eclipse.swt.internal.win32.OS.SendMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(OS.java:3325)
+	at org.eclipse.swt.widgets.Table.select(Table.java:3493)
+	at org.eclipse.swt.widgets.Table.setSelection(Table.java:5171)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.selectProposal(CompletionProposalPopup.java:1439)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.setProposals(CompletionProposalPopup.java:1211)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$7(CompletionProposalPopup.java:1154)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$1.run(CompletionProposalPopup.java:371)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4203)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3819)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2017-02-22 08:47:37.294
+!MESSAGE Error retrieving proposal text.
+Display string:
+No Proposals
+Pattern:
+2 + am*0.3))*
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 13
+	at java.lang.String.substring(Unknown Source)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:914)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getStyledDisplayString(AbstractJavaCompletionProposal.java:1251)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:868)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$24(CompletionProposalPopup.java:851)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$3.handleEvent(CompletionProposalPopup.java:601)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:1183)
+	at org.eclipse.swt.widgets.Table.wmNotifyChild(Table.java:6904)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:5817)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:2033)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5371)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(OS.java:2446)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:580)
+	at org.eclipse.swt.widgets.Table.callWindowProc(Table.java:446)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4889)
+	at org.eclipse.swt.widgets.Table.windowProc(Table.java:6037)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115)
+	at org.eclipse.swt.internal.win32.OS.SendMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.SendMessage(OS.java:3325)
+	at org.eclipse.swt.widgets.Table.select(Table.java:3493)
+	at org.eclipse.swt.widgets.Table.setSelection(Table.java:5171)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.selectProposal(CompletionProposalPopup.java:1439)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.setProposals(CompletionProposalPopup.java:1211)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$7(CompletionProposalPopup.java:1154)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$1.run(CompletionProposalPopup.java:371)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4203)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3819)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.jface 4 0 2017-02-22 08:59:41.428
+!MESSAGE Unhandled event loop exception during blocked modal context.
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4203)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3819)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:165)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:993)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard.performFinish(TaskWizard.java:223)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:790)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:423)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:618)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.wst.server.ui.internal.ServerUIPlugin.showNewRuntimeWizard(ServerUIPlugin.java:582)
+	at org.eclipse.wst.server.ui.ServerUIUtil.showNewRuntimeWizard(ServerUIUtil.java:57)
+	at org.eclipse.wst.web.ui.internal.wizards.DataModelFacetCreationWizardPage.launchNewRuntimeWizard(DataModelFacetCreationWizardPage.java:414)
+	at org.eclipse.wst.web.ui.internal.wizards.DataModelFacetCreationWizardPage.internalLaunchNewRuntimeWizard(DataModelFacetCreationWizardPage.java:472)
+	at org.eclipse.wst.web.ui.internal.wizards.DataModelFacetCreationWizardPage$7.widgetSelected(DataModelFacetCreationWizardPage.java:522)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:269)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:290)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor80.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:353)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:155)
+	at org.eclipse.ui.internal.actions.CommandAction.run(CommandAction.java:165)
+	at org.eclipse.ui.actions.NewWizardDropDownAction.run(NewWizardDropDownAction.java:176)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:436)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4228)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3816)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2311)
+	at org.eclipse.jst.server.tomcat.ui.internal.TomcatRuntimeComposite.init(TomcatRuntimeComposite.java:354)
+	at org.eclipse.jst.server.tomcat.ui.internal.TomcatRuntimeComposite.setRuntime(TomcatRuntimeComposite.java:121)
+	at org.eclipse.jst.server.tomcat.ui.internal.TomcatRuntimeWizardFragment.enter(TomcatRuntimeWizardFragment.java:56)
+	at org.eclipse.wst.server.ui.internal.wizard.TaskWizard$2$1.run(TaskWizard.java:173)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:162)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:154)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	... 78 more
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-22 09:02:37.763
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-02-22 09:02:37.763
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-02-22 11:42:49.102
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\dns_sd.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\rt.jar
+  [+] C:\opensource\ApacheTomcat9\lib\annotations-api.jar
+  [+] C:\opensource\ApacheTomcat9\lib\catalina-ant.jar
+  [+] C:\opensource\ApacheTomcat9\lib\catalina-ha.jar
+  [+] C:\opensource\ApacheTomcat9\lib\catalina-storeconfig.jar
+  [+] C:\opensource\ApacheTomcat9\lib\catalina-tribes.jar
+  [+] C:\opensource\ApacheTomcat9\lib\catalina.jar
+  [+] C:\opensource\ApacheTomcat9\lib\ecj-4.6.1.jar
+  [+] C:\opensource\ApacheTomcat9\lib\el-api.jar
+  [+] C:\opensource\ApacheTomcat9\lib\jasper-el.jar
+  [+] C:\opensource\ApacheTomcat9\lib\jasper.jar
+  [+] C:\opensource\ApacheTomcat9\lib\jaspic-api.jar
+  [+] C:\opensource\ApacheTomcat9\lib\jsp-api.jar
+  [+] C:\opensource\ApacheTomcat9\lib\servlet-api.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-api.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-coyote.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-dbcp.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-i18n-es.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-i18n-fr.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-i18n-ja.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-jdbc.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-jni.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-util-scan.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-util.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-websocket.jar
+  [+] C:\opensource\ApacheTomcat9\lib\websocket-api.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\XmlSchema-1.4.7.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\activation-1.1.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\antlr-2.7.7.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axiom-api-1.2.13.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axiom-dom-1.2.13.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axiom-impl-1.2.13.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-adb-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-adb-codegen-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-ant-plugin-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-clustering-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-codegen-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-corba-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-fastinfoset-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-java2wsdl-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-jaxbri-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-jaxws-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-jibx-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-json-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-kernel-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-metadata-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-mtompolicy-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-saaj-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-soapmonitor-servlet-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-spring-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-transport-http-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-transport-local-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\axis2-xmlbeans-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\commons-cli-1.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\commons-codec-1.3.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\commons-fileupload-1.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\commons-httpclient-3.1.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\commons-io-1.4.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\commons-logging-1.1.1.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\geronimo-stax-api_1.0_spec-1.0.1.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\httpcore-4.0.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\log4j-1.2.15.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\mail-1.4.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\neethi-3.0.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\woden-api-1.0M9.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\woden-impl-commons-1.0M9.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\woden-impl-dom-1.0M9.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\wsdl4j-1.6.2.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\wstx-asl-3.2.9.jar
+  [+] D:\New folder\05 - Estoque Ws\WebContent\WEB-INF\lib\xmlbeans-2.3.0.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2017-02-22 11:49:36.718
+!MESSAGE Full project indexing required:
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\charsets.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\access-bridge-64.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\cldrdata.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\dns_sd.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\dnsns.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\jaccess.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\jfxrt.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\localedata.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\nashorn.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\sunec.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\sunjce_provider.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\sunmscapi.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\sunpkcs11.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\ext\zipfs.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\jce.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\jfr.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\jsse.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\resources.jar
+  [+] C:\Program Files\Java\jre1.8.0_111\lib\rt.jar
+  [+] C:\opensource\ApacheTomcat9\lib\annotations-api.jar
+  [+] C:\opensource\ApacheTomcat9\lib\catalina-ant.jar
+  [+] C:\opensource\ApacheTomcat9\lib\catalina-ha.jar
+  [+] C:\opensource\ApacheTomcat9\lib\catalina-storeconfig.jar
+  [+] C:\opensource\ApacheTomcat9\lib\catalina-tribes.jar
+  [+] C:\opensource\ApacheTomcat9\lib\catalina.jar
+  [+] C:\opensource\ApacheTomcat9\lib\ecj-4.6.1.jar
+  [+] C:\opensource\ApacheTomcat9\lib\el-api.jar
+  [+] C:\opensource\ApacheTomcat9\lib\jasper-el.jar
+  [+] C:\opensource\ApacheTomcat9\lib\jasper.jar
+  [+] C:\opensource\ApacheTomcat9\lib\jaspic-api.jar
+  [+] C:\opensource\ApacheTomcat9\lib\jsp-api.jar
+  [+] C:\opensource\ApacheTomcat9\lib\servlet-api.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-api.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-coyote.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-dbcp.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-i18n-es.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-i18n-fr.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-i18n-ja.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-jdbc.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-jni.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-util-scan.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-util.jar
+  [+] C:\opensource\ApacheTomcat9\lib\tomcat-websocket.jar
+  [+] C:\opensource\ApacheTomcat9\lib\websocket-api.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\XmlSchema-1.4.7.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\activation-1.1.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\antlr-2.7.7.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axiom-api-1.2.13.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axiom-dom-1.2.13.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axiom-impl-1.2.13.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-adb-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-adb-codegen-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-ant-plugin-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-clustering-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-codegen-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-corba-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-fastinfoset-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-java2wsdl-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-jaxbri-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-jaxws-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-jibx-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-json-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-kernel-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-metadata-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-mtompolicy-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-saaj-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-soapmonitor-servlet-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-spring-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-transport-http-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-transport-local-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\axis2-xmlbeans-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\commons-cli-1.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\commons-codec-1.3.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\commons-fileupload-1.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\commons-httpclient-3.1.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\commons-io-1.4.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\commons-logging-1.1.1.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\geronimo-stax-api_1.0_spec-1.0.1.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\httpcore-4.0.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\log4j-1.2.15.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\mail-1.4.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\neethi-3.0.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\woden-api-1.0M9.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\woden-impl-commons-1.0M9.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\woden-impl-dom-1.0M9.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\wsdl4j-1.6.2.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\wstx-asl-3.2.9.jar
+  [+] D:\New folder\07-WebserviceSOAP-requester-Exercicio\WebContent\WEB-INF\lib\xmlbeans-2.3.0.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:169)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)

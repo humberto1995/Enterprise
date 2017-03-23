@@ -1,0 +1,26 @@
+package br.com.fiap.view;
+
+import br.com.fiap.bo.CursoBOStub;
+import br.com.fiap.bo.CursoBOStub.CalculaPS;
+
+public class ConsoleView {
+
+	public static void main(String[] args) {
+		try {
+			CursoBOStub bo = new CursoBOStub();
+
+			// Valores para enviar ao WebService
+			CalculaPS valores = new CalculaPS();
+			valores.setNac(5);
+			valores.setAm(5);
+
+			// Chamar o WebService
+			bo.calculaPS(valores);
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

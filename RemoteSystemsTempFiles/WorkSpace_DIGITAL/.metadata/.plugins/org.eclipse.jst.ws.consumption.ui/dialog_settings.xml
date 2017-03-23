@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.jst.ws.client.type.java">
+		<item value="http://localhost:8080/05_-_Estoque_Ws/services/EstoqueBO?wsdl"/>
+		<item value="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx?WSDL"/>
+		<item value="http://localhost:8080/04%20-%20WebServiceSOAP-provider/services/CursoBO?wsdl"/>
+	</list>
+</section>

@@ -1,0 +1,7 @@
+package br.com.fiap.bo;
+
+public class CursoBO {
+	public double calcularMedia(double nac, double am, double ps){
+		return ((nac*0.2) + (am*0.3) + (ps*0.5));
+	}
+}
