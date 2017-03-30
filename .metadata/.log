@@ -50,3 +50,173 @@ org.eclipse.equinox.p2.core.ProvisionException: Current Eclipse instance does no
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-23 11:07:11.933
 !MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+!SESSION 2017-03-30 14:15:55.705 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-30 14:16:40.122
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\humbe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:52.442
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerContainersView' id and the 'Docker Containers' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:52.713
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerImagesView' id and the 'Docker Images' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.037
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerExplorerView' id and the 'Docker Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.094
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.docker.ui.dockerImageHierarchyView' id and the 'Docker Image Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.112
+!MESSAGE Removing part descriptor with the 'org.eclipse.recommenders.snipmatch.rcp.views.snippets' id and the 'Snippets' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.172
+!MESSAGE Removing part descriptor with the 'org.eclipse.rse.terminals.ui.view.TerminalView' id and the 'Terminals' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.210
+!MESSAGE Removing part descriptor with the 'org.hibernate.eclipse.console.views.KnownConfigurationsView' id and the 'Hibernate Configurations' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.258
+!MESSAGE Removing part descriptor with the 'org.hibernate.eclipse.console.views.QueryPageTabView' id and the 'Hibernate Query Result' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.266
+!MESSAGE Removing part descriptor with the 'org.hibernate.eclipse.console.views.DynamicSQLPreviewView' id and the 'Hibernate Dynamic SQL Preview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.336
+!MESSAGE Removing part descriptor with the 'org.hibernate.eclipse.console.views.QueryParametersView' id and the 'Query Parameters' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.379
+!MESSAGE Removing part descriptor with the 'org.jboss.ide.eclipse.archives.ui.ProjectArchivesView' id and the 'Project Archives' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.408
+!MESSAGE Removing part descriptor with the 'org.jboss.ide.eclipse.as.ui.view.serverLogView' id and the 'Server Log' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.438
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.forge.ui.console' id and the 'Forge Console' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.452
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.jmx.jvmmonitor.ui.JvmExplorer' id and the 'JVM Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.604
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.jmx.ui.internal.views.navigator.MBeanExplorer' id and the 'JMX Navigator' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.649
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.jst.web.ui.navigator.WebProjectsView' id and the 'Web Projects' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.795
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.jst.css.view.editor' id and the 'CSS Properties' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.852
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.jst.css.view.preview' id and the 'CSS Preview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.862
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.openshift.express.ui.explorer.expressConsoleView' id and the 'OpenShift Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.982
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.vpe.preview.view.VpvView' id and the 'HTML Preview' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:53.989
+!MESSAGE Removing part descriptor with the 'org.jboss.tools.ws.ui.tester.views.TestWSView' id and the 'Web Service Tester' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:54.009
+!MESSAGE Removing part descriptor with the 'tern.eclipse.ide.ui.views.TernOutlineView' id and the 'Tern Outline' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:54.019
+!MESSAGE Removing part descriptor with the 'com.ibm.etools.common.migration.view.MigrationValidationResultsView' id and the 'Migration Results' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:54.052
+!MESSAGE Removing part descriptor with the 'com.ibm.etools.ui.navigator.SDExplorer' id and the 'Enterprise Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:54.087
+!MESSAGE Removing part descriptor with the 'com.ibm.rsaz.analysis.core.ui.views.ResultsFrameView' id and the 'Software Analyzer Results' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:54.095
+!MESSAGE Removing part descriptor with the 'com.ibm.ws.st.ui.runtime.view' id and the 'Runtime Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:54.108
+!MESSAGE Removing part descriptor with the 'de.tobject.findbugs.view.userannotationsview' id and the 'Bug Reviews' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:54.134
+!MESSAGE Removing part descriptor with the 'de.tobject.findbugs.view.buginfoview' id and the 'Bug Info' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:54.147
+!MESSAGE Removing part descriptor with the 'de.tobject.findbugs.view.bugtreeview' id and the 'Bug Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:54.161
+!MESSAGE Removing part descriptor with the 'org.eclipse.birt.report.designer.ui.lib.explorer.view' id and the 'Resource Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:54.176
+!MESSAGE Removing part descriptor with the 'org.eclipse.birt.report.designer.ui.views.data.DataView' id and the 'Data Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-03-30 14:16:54.207
+!MESSAGE Removing part descriptor with the 'org.eclipse.birt.report.designer.ui.attributes.AttributeView' id and the 'Property Editor' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:16:55.832
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:16:55.867
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:17:11.378
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:17:11.392
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:17:11.923
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:17:11.972
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:17:13.527
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:17:13.557
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:17:14.370
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:17:14.395
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:17:15.322
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:17:15.355
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:20:00.446
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:20:00.502
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:20:01.648
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:20:01.687
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:21:52.599
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:21:52.666
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:21:53.687
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-03-30 14:21:53.711
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!

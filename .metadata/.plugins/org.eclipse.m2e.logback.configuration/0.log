@@ -61,3 +61,46 @@
 2017-03-23 11:07:11,933 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\ENTERPRISE\05-Relacionamentos-Exercicio\src\test\resources
 2017-03-23 11:18:20,493 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@4db82da4{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
 2017-03-23 11:18:20,509 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@53a6321b{/help,null,UNAVAILABLE}
+2017-03-30 14:16:55,826 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:16:55,861 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\04-Relacionamentos\src\main\resources
+2017-03-30 14:16:55,866 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:16:55,886 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\04-Relacionamentos\src\test\resources
+2017-03-30 14:17:10,540 [Worker-16] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 04-Relacionamentos:04-Relacionamentos:0.0.1-SNAPSHOT @ C:\Users\humbe\Downloads\Enterprise-master\Enterprise\04-Relacionamentos\pom.xml.
+2017-03-30 14:17:11,377 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:17:11,389 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\04-Relacionamentos\src\main\resources
+2017-03-30 14:17:11,391 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:17:11,404 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\04-Relacionamentos\src\test\resources
+2017-03-30 14:17:11,922 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:17:11,969 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\05-Relacionamentos-Exercicio\src\main\resources
+2017-03-30 14:17:11,971 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:17:12,004 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\05-Relacionamentos-Exercicio\src\test\resources
+2017-03-30 14:17:13,524 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:17:13,545 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\04-Relacionamentos\src\main\resources
+2017-03-30 14:17:13,547 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:17:13,575 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\04-Relacionamentos\src\test\resources
+2017-03-30 14:17:13,921 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 05-Relacionamentos-Exercicio:05-Relacionamentos-Exercicio:0.0.1-SNAPSHOT @ C:\Users\humbe\Downloads\Enterprise-master\Enterprise\05-Relacionamentos-Exercicio\pom.xml.
+2017-03-30 14:17:14,369 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:17:14,380 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\05-Relacionamentos-Exercicio\src\main\resources
+2017-03-30 14:17:14,388 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:17:14,403 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\05-Relacionamentos-Exercicio\src\test\resources
+2017-03-30 14:17:15,321 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:17:15,331 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\05-Relacionamentos-Exercicio\src\main\resources
+2017-03-30 14:17:15,341 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:17:15,363 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\05-Relacionamentos-Exercicio\src\test\resources
+2017-03-30 14:19:58,701 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: 06-JPA-JPQL-Apostila:06-JPA-JPQL-Apostila:0.0.1-SNAPSHOT @ C:\Users\humbe\Downloads\Enterprise-master\Enterprise\06-JPA-JPQL-Apostila\pom.xml.
+2017-03-30 14:20:00,437 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:20:00,487 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\06-JPA-JPQL-Apostila\src\main\resources
+2017-03-30 14:20:00,497 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:20:00,509 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\06-JPA-JPQL-Apostila\src\test\resources
+2017-03-30 14:20:01,647 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:20:01,676 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\06-JPA-JPQL-Apostila\src\main\resources
+2017-03-30 14:20:01,683 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:20:01,693 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\06-JPA-JPQL-Apostila\src\test\resources
+2017-03-30 14:21:52,598 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:21:52,645 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\06-JPA-JPQL-Apostila\src\main\resources
+2017-03-30 14:21:52,661 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:21:52,672 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\06-JPA-JPQL-Apostila\src\test\resources
+2017-03-30 14:21:53,686 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:21:53,694 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\06-JPA-JPQL-Apostila\src\main\resources
+2017-03-30 14:21:53,703 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-30 14:21:53,718 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\humbe\Downloads\Enterprise-master\Enterprise\06-JPA-JPQL-Apostila\src\test\resources
